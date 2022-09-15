@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Dau</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="./asset/fonts/fontawesome-free-6.1.2-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <ul class="header-on-mobile">
+            <li class="header-mobile__item"><a href="#home" class="header-mobile__link">HOME</a></li>
+            <li class="header-mobile__item"><a href="#about" class="header-mobile__link">ABOUT</a></li>
+            <li class="header-mobile__item"><a href="#photos" class="header-mobile__link">PHOTOS</a></li>
+            <li class="header-mobile__item"><a href="#email" class="header-mobile__link">CONTACT</a></li>
+        </ul>
+        <div class="header hide-on-mobile">
+            <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Boy" class="header__img">
+            <div class="header-navbar__list">
+                <a href="#home" class="header-navbar__item header-navbar__item--active">
+                        <i class="header-navbar__icon header-navbar__icon--active fa-solid fa-house"></i>
+                        <span class="header-navbar__text">
+                            home
+                        </span>
+                </a>
+                <a href="#about" class="header-navbar__item">
+                        <i class="header-navbar__icon fa-solid fa-user"></i>
+                        <span class="header-navbar__text">
+                            about
+                        </span>
+                </a>
+                <a href="#photos" class="header-navbar__item">
+                        <i class="header-navbar__icon fa-solid fa-eye"></i>
+                        <span class="header-navbar__text">
+                            photos
+                        </span>
+                </a>
+                <a href="#email" class="header-navbar__item">
+                        <i class="header-navbar__icon fa-solid fa-envelope"></i>
+                        <span class="header-navbar__text">
+                            email
+                        </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slider-container grid wide">
+
+                <div id="home" class="slider-heading">
+                    <h1 class="slider__heading"><span class="hide-on-mobile"> I'm</span> John Doe.</h1>
+                    <span class="slider__main">Photographer and Web Designer.</span>
+                    <div class="grid_option">
+                        <img src="./asset/pics/man_smoke.jpg" alt="" class="slider__img">
+                        <div id="about" class="pt-100 slider-about">
+                            <h3 class="mt-100 slider-about__heading">My Name</h3>
+                            <hr class="line">
+                            <p class="slider-about__paragraph">Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
+                        <div class="slider-skill">
+                            <h3 class="slider-about__heading">My Skill</h3>
+                            <div class="slider-skill">
+                                <span class="slider-skill__name">Photographer</span>
+                                <div class="slider-skill__chart">
+                                    <div class="slider-skill__width slider-skill__width-ptgr"></div>
+                                </div>
+                            </div>
+                            <div class="slider-skill">
+                                <span class="slider-skill__name">Web Design</span>
+                                <div class="slider-skill__chart">
+                                    <div class="slider-skill__width slider-skill__width-web"></div>
+                                </div>
+                            </div>
+                            <div class="slider-skill">
+                                <span class="slider-skill__name">Photoshop</span>
+                                <div class="slider-skill__chart">
+                                    <div class="slider-skill__width slider-skill__width-pts"></div>
+                                </div>
+                            </div>
+
+                            <div class="slider-achivement">
+                                <div class="slider-achivement__item">
+                                    <h2 class="slider-achivement__number">11+</h2>
+                                    <span class="slider-achivement__name-achive">Partners</span>
+                                </div>
+                                <div class="slider-achivement__item">
+                                    <h2 class="slider-achivement__number">11+</h2>
+                                    <span class="slider-achivement__name-achive">Partners</span>
+                                </div>
+                                <div class="slider-achivement__item">
+                                    <h2 class="slider-achivement__number">11+</h2>
+                                    <span class="slider-achivement__name-achive">Partners</span>
+                                </div>
+                                <div class="slider-achivement__item">
+                                    <h2 class="slider-achivement__number">11+</h2>
+                                    <span class="slider-achivement__name-achive">Partners</span>
+                                </div>
+                            </div>
+                            <button class="slider-achivement__dowload"><i class="slider-achivement__dowload-icon fa-solid fa-download"></i>Dowload Resume</button>
+
+                            <div class="slider-price">
+                                <div class="row">
+                                    <div class="col l-6 m-6 c-12">
+                                        <div class="slider-price slider-price--basic">
+                                            <ul class="slider-price__list">
+                                                <h2 class="slider-price__heading slider-price__heading--hover">BASIC</h2>
+                                                <li class="slider-price__item">Web Design</li>
+                                                <li class="slider-price__item">Photography</li>
+                                                <li class="slider-price__item">5GB Storage</li>
+                                                <li class="slider-price__item">Mail Support</li>
+                                                <li class="slider-price__item">
+                                                    <h2 class="slider-price__item-cost">$ 10</h2>
+                                                    per month
+                                                </li>
+                                                <li class="slider-price__item--btn">
+                                                    <button class="slider-price__buy">Sign Up</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col l-6 m-6 c-12">
+                                        <div class="slider-price slider-price--basic">
+                                            <ul class="slider-price__list">
+                                                <h2 class="slider-price__heading slider-price__heading--hover">BASIC</h2>
+                                                <li class="slider-price__item">Web Design</li>
+                                                <li class="slider-price__item">Photography</li>
+                                                <li class="slider-price__item">5GB Storage</li>
+                                                <li class="slider-price__item">Endless Support</li>
+                                                <li class="slider-price__item">
+                                                    <h2 class="slider-price__item-cost">$ 10</h2>
+                                                    per month
+                                                </li>
+                                                <li class="slider-price__item--btn">
+                                                    <button class="slider-price__buy">Sign Up</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-reputation">
+                                    <h2 class="slider-about__heading">
+                                        My Reputation
+                                    </h2>
+                                    <div class="slider-reputation__item">
+                                        <img src="./asset/pics/reputation/bandmember.jpg" class="slider-reputation__img" alt="">
+                                        <div class="slider-reputaion__text">
+                                            <span class="slider-reputation__about">Chris Fox. CEO at Mighty Schools.</span>
+                                            <span class="slider-reputation__comment">John Doe saved us from a web disaster.</span>
+                                        </div>
+                                    </div>
+                                    <div class="slider-reputation__item">
+                                        <img src="./asset/pics/reputation/avatar_g2.jpg" class="slider-reputation__img" alt="">
+                                        <div class="slider-reputaion__text">
+                                            <span class="slider-reputation__about">Chris Fox. CEO at Mighty Schools.</span>
+                                            <span class="slider-reputation__comment">John Doe saved us from a web disaster.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="photos" class="pt-100 slider-photo">
+                                    <h2 class="slider-about__heading">My Photos</h2>
+                                    <hr class="line">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <img class="slider-photos__img" src="./asset/pics/photos/1.jpg" alt="">
+                                            <img class="slider-photos__img" src="./asset/pics/photos/2.jpg" alt="">
+                                            <img class="slider-photos__img" src="./asset/pics/photos/3.jpg" alt="">
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <img class="slider-photos__img" src="./asset/pics/photos/4.jpg" alt="">
+                                            <img class="slider-photos__img" src="./asset/pics/photos/5.jpg" alt="">
+                                            <img class="slider-photos__img" src="./asset/pics/photos/6.jpg" alt="">
+                                            <img class="slider-photos__img" src="./asset/pics/photos/7.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="email" class="pt-100 slider-contact">
+                                    <h2 class="slider-about__heading">Contact Me</h2>
+                                    <hr class="line">
+                                    <div class="slider-contact__item">
+                                        <i class="slider-contact__icon fa-sharp fa-solid fa-location-dot"></i>
+                                        <span class="slider-contact__about">Chicago, US</span>
+                                    </div>
+                                    <div class="slider-contact__item">
+                                        <i class="slider-contact__icon fa-solid fa-phone"></i>
+                                        <span class="slider-contact__about">Phone: +00 151515</span>
+                                    </div>
+                                    <div class="slider-contact__item">
+                                        <i class="slider-contact__icon fa-solid fa-envelope"></i>
+                                        <span class="slider-contact__about">Email: mail@mail.com</span>
+                                    </div>
+                                    <div class="slider-form">
+                                        <span class="slider-form__desc">Let's get in touch. Send me a message:</span>
+                                        <input type="text" name="" id="" class="slider-form__fill" placeholder="Name">
+                                        <input type="email" name="" id="" class="slider-form__fill" placeholder="Email">
+                                        <input type="text" name="" id="" class="slider-form__fill" placeholder="Subject">
+                                        <input type="text" name="" id="" class="slider-form__fill" placeholder="Message">
+                                        <button class="slider-form__btn"><i class="slider-form__send fa-solid fa-paper-plane"></i>send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-footer">
+                            <div class="slider-footer__social">
+                                <span><i class="slider-footer__icon fa-brands fa-facebook"></i><i class="slider-footer__icon fa-brands fa-instagram"></i><i class="slider-footer__icon fa-brands fa-snapchat"></i><i class="slider-footer__icon fa-brands fa-pinterest"></i><i class="slider-footer__icon fa-brands fa-twitter"></i><i class="slider-footer__icon fa-brands fa-linkedin"></i></span>
+                            </div>
+                            <span class="slider-footer__copy-right">
+                                Powered by <a href="#" class="slider-footer__link">w3.css</a> 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>       
+        </div>
+    </div>
+</body>
+</html>
